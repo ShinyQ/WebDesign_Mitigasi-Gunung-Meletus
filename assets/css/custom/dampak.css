@@ -1,6 +1,6 @@
 .dampak-bg{
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 8%;
+	padding-bottom: 8%;
 	color: white;
 }
 
@@ -23,6 +23,7 @@
 }
 
 .h1-dampak {
+	font-weight: 600;
     font-family: exo;
 	font-size: 30px;
 	text-align: center;
