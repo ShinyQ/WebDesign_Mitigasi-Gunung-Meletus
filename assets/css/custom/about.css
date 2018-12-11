@@ -1,14 +1,37 @@
-.container-fluid {
-    margin-bottom: 6%
+.carousel-inner p{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.about h1{
+    font-size: 32px;
+}
+
+.about h3, h4{
+    font-size: 22px;
+}
+
+.about img{
+    width: 100px;
+    height: 100px;
+    background: #333;
+    border-radius: 100px;
+    border: solid 4px;
+    border-color: #3281ff;
+    overflow: hidden
+}
+
+.about p{
+    font-size: 18px;
 }
 
 .about{
     background-color: #606060;
-    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 #profile .headpoint {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 50px;
     color: #fff;
     line-height: 1.2
@@ -27,7 +50,11 @@
     margin-top: 40px
 }
 
-#quote-carousel .carousel-indicators {
+.carousel-indicators {
+    padding-top: 50px;
+}
+
+/* #quote-carousel .carousel-indicators {
     right: 50%;
     top: 0 auto;
     bottom: 0;
@@ -35,8 +62,7 @@
 }
 
 #quote-carousel .carousel-indicators li {
-    width: 50px;
-    height: 50px;
+ 
     margin: 5px;
     cursor: pointer;
     border: 4px solid #CCC;
@@ -54,18 +80,21 @@
     border-color: #3281ff;
     opacity: 1;
     overflow: hidden
-}
+} */
 
 .carousel-inner {
-    min-height: 300px;
+    min-height: 350px;
     color: #E0E0E0;
     width: 100%;
-    padding-bottom: 120px
 }
 
 .item blockquote {
     border-left: none;
     margin: 0
+}
+
+.carousel-item{
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width:768px) {
@@ -85,45 +114,15 @@
         box-shadow: 10px 9px 5px 5px #2a3b4c
     }
 
-    .carousel-indicators {
-        position: absolute;
-        bottom: 10px;
-        left: 40%;
-        z-index: 15;
-        width: 80%;
-        text-align: center;
-        list-style: none;
-        float: left
+    .carousel-inner p{
+        padding-left: 0;
+        padding-right: 0;
     }
 
     #quote-carousel .carousel-indicators {
         top: 76%
     }
 
-    #quote-carousel .carousel-indicators .active {
-        background: #333;
-        width: 70px;
-        height: 70px;
-        border-radius: 100px;
-        border-color: #3281ff;
-        opacity: 1;
-        overflow: hidden
-    }
-
-    #quote-carousel .carousel-indicators li {
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-        border: 4px solid #CCC;
-        border-radius: 50px;
-        opacity: .4;
-        overflow: hidden;
-        transition: all .4s
-    }
-
-    .carousel-inner {
-        padding-bottom: 50px
-    }
 }
 
 @media screen and (max-width:360px) {
@@ -131,9 +130,6 @@
         top: 0 auto
     }
 
-    .carousel-inner {
-        padding-bottom: 120px
-    }
 }
 
 @media screen and (min-width:1024px) {
@@ -148,8 +144,5 @@
         font-size: 30px
     }
 
-    .carousel-inner {
-        padding-bottom: 120px
-    }
 }
 
