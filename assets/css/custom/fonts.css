@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'exo';
+    src: url('../../fonts/exo/Exo2-Medium.otf');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'fontawesome';
+    src: url('../../fonts/fontawesome/fontawesome-webfont.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../fonts/gotham-rounded/GothamRounded-Medium.otf');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../../fonts/poppins/Poppins-Medium.ttf');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'porter';
+    src: url('../../fonts/PorterBold.ttf');
+    font-display: block;
+}
