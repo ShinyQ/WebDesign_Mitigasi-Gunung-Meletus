@@ -10,7 +10,7 @@
 
 .p-point{
 	font-size: 18px;
-	font-family: gotham;
+	font-family: poppins;
 }
 
 .spacingSingleLine{
@@ -20,6 +20,7 @@
 .padding-content-dampak{
 	padding-top: 30px;
 	padding-bottom: 20px;
+	
 }
 
 .h1-dampak {
@@ -30,6 +31,11 @@
 }
 .content-center{
 	margin-top: 100px;
+}
+
+.dampak .img-fluid{
+	border-radius: 100%;
+	background: blue;
 }
 
 .hr-blue{
