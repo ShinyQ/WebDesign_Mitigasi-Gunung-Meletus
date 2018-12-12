@@ -1,0 +1,38 @@
+.dampak-bg{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+}
+
+.content-center{
+	margin-top: 100px;
+}
+
+.p-point{
+	font-size: 18px;
+	font-family: gotham;
+}
+
+.spacingSingleLine{
+	margin-top: 10px;
+}
+
+.padding-content-dampak{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.h1-dampak {
+    font-family: exo;
+	font-size: 30px;
+	text-align: center;
+}
+.content-center{
+	margin-top: 100px;
+}
+
+.hr-blue{
+	margin-top: 5px;
+	border: 2px solid white;
+	border-radius: 3px;
+}
