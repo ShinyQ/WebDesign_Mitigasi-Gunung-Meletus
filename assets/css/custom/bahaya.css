@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.bahaya {
+    background-color: #2b3342;
+    margin-top: -20px;
+    font-family: "Century Gothic";
+}
+
+.bahaya h1 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bahaya .judul{
+    padding-bottom: 3%;
+}
+
+.bahaya h4 {
+    margin-top: 5px;
+    font-family: "gotham";
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.wrapper {
+    min-height: 400px;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.columns {
+    z-index: 999;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+    bottom: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.column {
+    color: black;
+    background: white;
+    border-radius: 15px;
+    height: 0 auto;
+    text-align: center;
+    flex: 1;
+    margin: 12px;
+    padding: 20px;
+    transition: .5s all;
+}
+
+.column p {
+    font-size: 16px;
+    font-family: "gotham";
+    margin-top: 10px;
+    color: #919191;
+    line-height: 1.5;
+}
+
+.column h4 {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 980px) {
+    .wrapperLanding {
+        margin: 0;
+    }
+
+    .columns .column {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .columns .column {
+        flex-basis: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+    .bahaya h1 {
+        padding-top: 20%;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+    .bahaya h1 {
+        padding-top: 15%;
+    }
+}

@@ -1,9 +1,11 @@
 html,
 body {
     overflow-x: hidden;
-    background-color: #fafafa;
+    font-family: poppins;
 }
-
+a:hover{
+    text-decoration: none;
+}
 .title {
     font-size: 34px;
     font-weight: 400;
