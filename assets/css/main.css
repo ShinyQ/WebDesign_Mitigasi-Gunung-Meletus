@@ -2,6 +2,7 @@ html,
 body {
     overflow-x: hidden;
     font-family: poppins;
+    background-color: #2b2a2a;
 }
 a:hover{
     text-decoration: none;
