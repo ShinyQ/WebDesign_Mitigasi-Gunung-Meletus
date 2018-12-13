@@ -134,3 +134,10 @@
           padding-right: 2%;
       }
   }
+
+  @media screen and (min-width: 600px) and (max-width: 768px){
+    .sejarah {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+  }
