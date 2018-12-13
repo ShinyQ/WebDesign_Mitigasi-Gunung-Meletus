@@ -4,23 +4,28 @@
 	color: white;
 }
 
-.content-center{
-	margin-top: 100px;
-}
-
 .p-point{
-	font-size: 18px;
-	font-family: poppins;
+	font-size: 16px;
+	font-family: gotham;
 }
 
 .spacingSingleLine{
-	margin-top: 10px;
+	margin-top: 40px;
+	padding-right: 150px;
+}
+
+.spacingSingleLine2{
+	margin-top: 30px;
 }
 
 .padding-content-dampak{
-	padding-top: 30px;
 	padding-bottom: 20px;
-	
+}
+
+.img-dampak img{
+	margin-top: 100px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .h1-dampak {
@@ -30,7 +35,7 @@
 	text-align: center;
 }
 .content-center{
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 .dampak .img-fluid{
@@ -42,4 +47,42 @@
 	margin-top: 5px;
 	border: 2px solid white;
 	border-radius: 3px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+	.img-dampak img{
+		margin-top: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	
+	.p-point{
+		text-align: justify;
+	}
+
+	.spacingSingleLine2{
+		margin-top: 30px;
+	}
+
+	.spacingSingleLine{
+		margin-top: 20px;
+	}
+
+	.spacingSingleLine{
+		padding-right: 0px;
+	}
+
+	.content-center{
+		margin-top: 0px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.spacingSingleLine2{
+		margin-top: 30px;
+	}
+
+	.spacingSingleLine{
+		padding-right: 20px;
+	}
 }
