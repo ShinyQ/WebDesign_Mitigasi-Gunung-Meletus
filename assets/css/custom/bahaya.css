@@ -2,18 +2,13 @@
     box-sizing: border-box;
 }
 
-.bahaya {
-    background-color: #2b3342;
-    font-family: "Century Gothic";
-}
-
 .bahaya h1 {
     color: white;
     text-align: center;
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 30px;
-    padding-top: 8%;
+    padding-top: 4%;
     padding-left: 5%;
     padding-right: 5%;
 }

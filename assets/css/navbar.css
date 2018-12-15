@@ -4,13 +4,26 @@
 
 .navbrand1 {
   float: left;
+  margin: 15px;
 }
-
+.navbrand2 {
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+.slashwhite {
+  width:100%;
+  height: 100px;
+  background-color: white;
+  top:-5%;
+  left:-5%;
+  z-index: 99;
+  transform:rotate(45deg);
+}
 .bgblue {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: #690d0d;
+  background: #7c7c7c;
   position: fixed;
   display: none;
   transition: all 0.3s;
