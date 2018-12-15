@@ -4,11 +4,9 @@
     padding-left:5%;
     padding-right:5%;
 }
+
 .dampakcontent p{
 margin-top: 20px;
-margin-left: 20px;  
 text-align: justify;
-}
-.dampakimg{
-    width: 600px
+line-height: 2;
 }
