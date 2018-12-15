@@ -2,7 +2,7 @@ html,
 body {
     overflow-x: hidden;
     font-family: poppins;
-    background-color: #2b2a2a;
+    background-color: #141414;
 }
 
 a:hover {
@@ -149,4 +149,28 @@ a:hover {
     100% {
         top: 0px;
     }
+}
+.wrapper {
+    min-height: 400px;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.wrappermain {
+    min-height: 400px;
+    width: 100%;
+    margin-top: 120px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.wrappersejarah {
+    min-height: 400px;
+    width: 100%;
+    padding-bottom: 3%;
+}
+.mymove{
+    animation: mymove 2s infinite; 
+    position: relative;
+    width: 600px;
+    margin-top: -10px !important;
 }

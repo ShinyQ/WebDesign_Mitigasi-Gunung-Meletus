@@ -24,12 +24,6 @@
     line-height: 1.2;
 }
 
-.wrapper {
-    min-height: 400px;
-    width: 100%;
-    padding-bottom: 10%;
-}
-
 .columns {
     z-index: 999;
     display: flex;
