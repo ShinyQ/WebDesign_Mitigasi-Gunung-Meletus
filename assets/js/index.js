@@ -19,6 +19,13 @@
         $(function () {
             $.scrollify({
                 section: ".scroll-web",
+                easing: "easeOutExpo",
+                scrollSpeed: 900,
+                offset : 0,
+                scrollbars: true,
+                standardScrollElements: "",
+                setHeights: true,
+                overflowScroll: true
             });
 
         });
