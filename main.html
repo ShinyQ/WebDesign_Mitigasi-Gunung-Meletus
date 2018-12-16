@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="assets/css/aos/aos.css">
+    <link rel="stylesheet" href="assets/css/loader.css">
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/custom/fonts.css">
     <link rel="stylesheet" href="assets/css/custom/timeline.css">
@@ -16,7 +17,6 @@
     <link rel="stylesheet" href="assets/css/custom/dampak.css">
     <link rel="stylesheet" href="assets/css/custom/about.css">
     <link rel="stylesheet" href="assets/css/custom/pengertian.css">
-
 
 
 
@@ -29,6 +29,9 @@
 </head>
 
 <body>
+    <div id="overlay">
+    <div class="loading"></div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top ">
         <div class="nav-item align-content-start">
             <a href="#landing"><img class="navbar-brand navbrand1" src="assets/image/logo/logo-white.png" width=140px
@@ -434,6 +437,7 @@
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/aos.js"></script>
+    <script src="assets/js/loader.js"></script>
     <script>
         $("#navigation-button").click(function () {
             $("#notification-number").toggleClass("notification-hide");
