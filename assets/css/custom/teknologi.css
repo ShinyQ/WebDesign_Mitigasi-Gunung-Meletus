@@ -1,0 +1,93 @@
+.teknologi{
+    padding-top: 8%;
+	padding-bottom: 3%;
+}
+
+.teknologi h1{
+    color: white;
+    font-size: 36px;
+    font-family: poppins;
+    margin-bottom: 10%;
+}
+
+.teknologi .item .contentGaleri {
+    text-align: justify;
+}
+
+.teknologi .item .contentGaleri p{
+    font-size: 18px;
+}
+
+.inspirasiGaleri {
+    width: 90%;
+    text-align: justify;
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 56px;
+}
+
+.isiGaleri {
+    height: auto;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.containerGaleriLuar {
+    background: white;
+    padding: 10px 30px 30px 30px;
+    border-radius: 25px;
+    margin-bottom: 55px;
+    box-shadow: 0 5px 20px rgba(125, 125, 125, 0.2);
+}
+
+.columnGaleri {
+    padding-right: 6px;
+}
+
+.columnGaleri img{
+    height: 250px;
+}
+
+.galeriItem {
+    width: 100%;
+    background: red;
+}
+
+.contentGaleri {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contentGaleri hr {
+    margin-left: 0;
+    border: 0;
+    max-width: 100%;
+    height: 6px;
+    background: rgba(13, 36, 53, 1);
+    background: linear-gradient(to left, rgba(13, 36, 53, 1) 0%, rgba(3, 115, 156, 1) 100%);
+    border-radius: 50px;
+}
+
+.contentGaleri h5 {
+    font-size: 30px;
+    line-height: 1;
+    font-family: gotham;
+}
+
+@media only screen and (max-width: 960px) {
+    .inspirasiGaleri {
+        width: 98%;
+        text-align: center;
+        max-width: 1011px;
+        height: auto;
+        margin: auto;
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:414px) {
+    .teknologi h1{
+        font-size: 30px;
+    }
+}

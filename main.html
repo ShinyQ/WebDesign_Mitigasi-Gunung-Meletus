@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/custom/fonts.css">
     <link rel="stylesheet" href="assets/css/custom/timeline.css">
+    <link rel="stylesheet" href="assets/css/custom/teknologi.css">
     <link rel="stylesheet" href="assets/css/custom/bahaya.css">
     <link rel="stylesheet" href="assets/css/custom/dampak.css">
     <link rel="stylesheet" href="assets/css/custom/about.css">
@@ -27,6 +28,29 @@
 </head>
 
 <body>
+
+    <style>
+        ::-webkit-scrollbar {
+        width: 10px;
+        height: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #3589ba;
+        transition: 0.5s;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #8ecdf2;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    </style>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top ">
         <div class="nav-item align-content-start">
             <a href="#landing"><img class="navbar-brand navbrand1" src="assets/image/logo/logo-white.png" width=140px
@@ -82,8 +106,8 @@
             <div class="container-fluid bg1 parallax img-responsive">
                 <div class="overlay">
                     <div class="parallax-caption justify-content-start">
-                        <p>MIGUS</p>
-                        <h5>"Nothing highlights the horrific explosion of nature more than volcano"</h5>
+                        <p data-aos="fade-down">MIGUS</p>
+                        <h5 data-aos="fade-up">"Nothing highlights the horrific explosion of nature more than volcano"</h5>
                         <a href="#pengertian" class="scrollicon"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
                     </div>
                 </div>
@@ -95,9 +119,9 @@
         <section id="pengertian">
             <div class="wrappermain">
                 <div class="container bg-dampak">
-                    <div class="row">
+                    <div class="row" >
                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                            <div class="dampakcontent">
+                            <div class="dampakcontent" data-aos="fade-right" data-aos-duration="1500"  data-aos-offset="300">
                                 <h1>Gunung Berapi </h1>
                                 <p>
                                     &nbsp; &nbsp;Gunung berapi sama seperti raksasa yang tertidur. Setelah setahun,
@@ -110,7 +134,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="300">
                             <img src="assets/image/indo.png" alt="Indonesia" class="img-fluid dampakimg">
                         </div>
                     </div>
@@ -121,10 +145,9 @@
 
 
     <!-- Bahaya Gunung Meletus -->
-    <div class="scroll-web">
-        <section id="bahaya">
-            <div class="wrapper bahaya">
-                <div data-aos="fade-up" data-aos-duration="2000">
+        <section id="bahaya"  class="bahaya scroll-web">
+          
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-offset="300">
                     <div class="col-lg-12 col-md-12 col-xl-12 judul">
                         <h1 class="h1-dampak">Apa Bahaya Dari Gunung Meletus ?</h1>
                         <hr class="text-center hr-blue" width="200px" size="100" style="margin-top: -20px;">
@@ -163,31 +186,30 @@
                     </section>
 
                 </div>
-            </div>
+           
         </section>
-    </div>
+    
     <!-- Bahaya Gunung Meletus -->
 
     <!-- Dampak Gunung Meletus -->
-    <div class="scroll-web">
-        <section id="dampak" class="dampak-bg">
+        <section id="dampak" class="dampak-bg scroll-web">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xl-12">
+                    <div class="col-lg-12 col-md-12 col-xl-12" data-aos="fade-up" data-aos-duration="2000" >
                         <h1 class="h1-dampak">Apa Dampak Dari Gunung Meletus ?</h1>
                         <hr class="text-center hr-blue" width="200px" size="100">
                     </div>
                     <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12 ">
                         <div class="padding-content-dampak img-dampak">
                             <img class="img-fluid mymove" src="assets/image/volcano.png" data-aos="zoom-in-right"
-                                data-aos-offset="150" data-aos-easing="ease-in-sine">
+                                data-aos-offset="200" data-aos-easing="ease-in-sine">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xl-6 col-sm-12">
                         <div class="padding-content-dampak">
                             <div class="content-center">
                                 <div class="row">
-                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                         <div class="spacingPoint">
                                             <div class="row">
                                                 <div class="col-2">
@@ -203,7 +225,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                         <div class="spacingPoint">
                                             <div class="row">
                                                 <div class="col-2">
@@ -219,7 +241,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                         <div class="spacingPoint">
                                             <div class="row">
                                                 <div class="col-2">
@@ -235,7 +257,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                         <div class="spacingPoint">
                                             <div class="row">
                                                 <div class="col-2">
@@ -251,7 +273,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                                    <div class="col-12" data-aos="zoom-in-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                                         <div class="spacingPoint">
                                             <div class="row">
                                                 <div class="col-2">
@@ -274,16 +296,91 @@
                 </div>
             </div>
         </section>
-    </div>
+   
     <!-- Dampak Gunung Meletus -->
+
+    <!-- Teknologi Penanggulangan Gunmel -->
+    <div class="teknologi scroll-web">
+        <div id="wisata"></div>
+        <div class="inspirasiGaleri">
+            <div class="header">
+                <h1 data-aos="fade-up" data-aos-duration="2000">
+                    <center>Teknologi Mitigasi Gunung Meletus</center>
+                    <hr class="text-center hr-blue" width="250px" size="100" style="margin-top: 10px;">
+                </h1>
+            </div>
+            <div class="containerGaleriLuar" data-aos-delay="1000" data-aos="fade-right" data-aos-duration="1500">
+                <div class="contentGaleri">
+                    <h5>1. Raja Ampat, Kabupaten Raja Ampat, Papua Barat</h5>
+                    <hr>
+                    <p>&nbsp; &nbsp;Raja Ampat merupakan salah satu tempat wisata di pulau Papua yang paling dikenal
+                        oleh seluruh masyarakat Indonesia . Bagaimana tidak , Raja Ampat memiliki biota laut yang
+                        sangat beragam, sebanyak 75% spesies laut dunia dapat ditemukan di perairan Raja Ampat. Disini
+                        para wisatawan dapat menikmati keindahan bahari Raja Ampat dengan menyelam ataupun scuba
+                        diving. Kepulauan ini sekarang menjadi tujuan para penyelam yang tertarik akan keindahan
+                        pemandangan bawah lautnya.</p>
+                </div>
+                <div class="isiGaleri">
+                    <div class="columnGaleri"><img src="images/wisata/1.Raja_Ampat/rajaampat1.jpg" alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/1.Raja_Ampat/rajaampat2.jpg" alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/1.Raja_Ampat/rajaampat3.jpg" alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/1.Raja_Ampat/rajaampat4.jpg" alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/1.Raja_Ampat/rajaampat5.jpg" alt="" width="500px"></div>
+                </div>
+            </div>
+            <div class="containerGaleriLuar" data-aos-delay="500" data-aos="fade-left" data-aos-duration="1500"
+                data-aos-offset="200">
+                <div class="contentGaleri">
+                    <h5>2. Lembah Baliem, Kabupaten Manokwari, Papua Barat</h5>
+                    <hr>
+                    <p>&nbsp; &nbsp;Lembah Baliem merupakan salah satu lembah yang terdapat di pegunungan Jaya Wijaya ,
+                        lembah Baliem dikelilingi oleh pegunungan dengan pemandangannya yang indah dan masih alami.
+                        Lembah ini terkenal akan tempat wisatanya karena adanya festival Lembah Baliem yang diadakan
+                        tiap bulan Agustus, festival ini merupakan acara perang antarsuku Dani, Lani, dan Suku Yali
+                        sebagai lambang kesuburan dan kesejahteraan. Sebuah festival yang menjadi ajang adu kekuatan
+                        antar suku dan telah berlangsung turun temurun.</p>
+                </div>
+                <div class="isiGaleri">
+                    <div class="columnGaleri"><img src="images/wisata/2.Lembah_Baliem/baliem1.jpg" alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/2.Lembah_Baliem/baliem2.jpg" alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/2.Lembah_Baliem/baliem3.jpg" alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/2.Lembah_Baliem/baliem4.jpg" alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/2.Lembah_Baliem/baliem5.jpg" alt="" width="500px"></div>
+                </div>
+            </div>
+            <div class="containerGaleriLuar" data-aos-delay="500" data-aos="fade-right" data-aos-duration="1500"
+                data-aos-offset="200">
+                <div class="contentGaleri">
+                    <h5>3. Taman Nasional Teluk Cendrawasih, Kabupaten Manokwari, Papua Barat</h5>
+                    <hr>
+                    <p>&nbsp; &nbsp;Taman Nasional Teluk Cendrawasih merupakan taman nasional perairan laut terluas di
+                        Indonesia, terdiri dari daratan dan pesisir pantai , daratan pulau-pulau , terumbu karang, dan
+                        perairan lautan. Tak mengherankan jika Taman Nasional Teluk Cendrawasih menjadi kawasan
+                        konservasi laut terbesar dan terluas di Indonesia.</p>
+                </div>
+                <div class="isiGaleri">
+                    <div class="columnGaleri"><img src="images/wisata/3.Taman_Nasional_Teluk_Cendrawasih/teluk1.jpg"
+                            alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/3.Taman_Nasional_Teluk_Cendrawasih/teluk2.jpg"
+                            alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/3.Taman_Nasional_Teluk_Cendrawasih/teluk3.jpg"
+                            alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/3.Taman_Nasional_Teluk_Cendrawasih/teluk4.jpg"
+                            alt="" width="500px"></div>
+                    <div class="columnGaleri"><img src="images/wisata/3.Taman_Nasional_Teluk_Cendrawasih/teluk5.jpg"
+                            alt="" width="500px"></div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Tempat Wisata -->
 
     <!-- Timeline Gunung Meletus -->
     <div class="scroll-web">
         <section>
             <div class="wrappersejarah sejarah">
-                <div class="col-lg-12 col-md-12 col-xl-12 judul" id="sejarah">
-                    <h1 class="h1-dampak">Sejarah Gunung Meletus di Indonesia</h1>
-                    <hr class="text-center hr-blue" width="200px" size="100" style="margin-top: 10px;">
+                <div class="col-lg-12 col-md-12 col-xl-12 judul" id="sejarah"  data-aos="fade-up" data-aos-duration="2000">
+                    <h1 class="h1-dampak">Peristiwa Meletusnya Gunung Berapi di Indonesia</h1>
+                    <hr class="text-center hr-blue" width="300px" size="100" style="margin-top: 10px;">
                 </div>
                 <div class="timeline">
                     <div class="containertimeline left" data-aos="fade-up" data-aos-duration="2000">
@@ -458,7 +555,7 @@
         });
     </script>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/scrollify/node_modules/jquery-scrollify/jquery.scrollify.js"></script>
+    <!-- <script src="assets/js/scrollify/node_modules/jquery-scrollify/jquery.scrollify.js"></script> -->
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/index.js"></script>
 </body>
