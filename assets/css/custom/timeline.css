@@ -10,6 +10,10 @@
       color: white
   }
 
+  .sejarah p{
+      color: black;
+  }
+
   /* Div Keseluruhan Timeline */
   .timeline {
       position: relative;
