@@ -31,6 +31,9 @@
     height: auto;
     display: flex;
     overflow-x: scroll;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .containerGaleriLuar {
@@ -46,7 +49,8 @@
 }
 
 .columnGaleri img{
-    height: 250px;
+    height: 200px;
+    width: auto;
 }
 
 .galeriItem {
