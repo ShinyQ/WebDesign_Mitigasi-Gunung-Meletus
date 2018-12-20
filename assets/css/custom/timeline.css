@@ -14,6 +14,10 @@
       color: black;
   }
 
+  .sejarah h2{
+    color: black;
+}
+
   /* Div Keseluruhan Timeline */
   .timeline {
       position: relative;
