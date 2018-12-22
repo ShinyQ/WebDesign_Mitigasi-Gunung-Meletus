@@ -1,88 +1,89 @@
-.dampak-bg{
+.dampak-bg {
 	padding-top: 8%;
 	padding-bottom: 3%;
 	color: white;
 }
 
-.p-point{
+.p-point {
 	font-size: 16px;
 	font-family: gotham;
 }
 
-.spacingSingleLine{
+.spacingSingleLine {
 	margin-top: 40px;
 	padding-right: 150px;
 }
 
-.spacingSingleLine2{
+.spacingSingleLine2 {
 	margin-top: 30px;
 }
 
-.padding-content-dampak{
+.padding-content-dampak {
 	padding-bottom: 20px;
 }
 
-.img-dampak img{
-	margin-top: 10px!important;
+.img-dampak img {
+	margin-top: 10px !important;
 	padding-right: 20px;
 	padding-left: 20px;
 }
 
 .h1-dampak {
 	font-weight: 600;
-    font-family: poppins;
+	font-family: poppins;
 	font-size: 30px;
 	text-align: center;
 }
-.content-center{
+
+.content-center {
 	margin-top: 30px;
 }
 
-.dampak .img-fluid{
+.dampak .img-fluid {
 	border-radius: 100%;
 	background: blue;
 }
 
-.hr-blue{
+.hr-blue {
 	margin-top: 5px;
 	border: 2px solid white;
 	border-radius: 3px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 414px) {
-	.img-dampak img{
+	.img-dampak img {
 		margin-top: 20px;
 		padding-right: 20px;
 		padding-left: 20px;
 	}
-	
-	.p-point{
+
+	.p-point {
 		text-align: justify;
 	}
 
-	.spacingSingleLine2{
+	.spacingSingleLine2 {
 		margin-top: 30px;
 	}
 
-	.spacingSingleLine{
+	.spacingSingleLine {
 		margin-top: 20px;
 	}
 
-	.spacingSingleLine{
+	.spacingSingleLine {
 		padding-right: 0px;
 	}
 
-	.content-center{
+	.content-center {
 		margin-top: 0px;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-	.spacingSingleLine2{
+	.spacingSingleLine2 {
 		margin-top: 30px;
 	}
 
-	.spacingSingleLine{
+	.spacingSingleLine {
 		padding-right: 20px;
 	}
 }
