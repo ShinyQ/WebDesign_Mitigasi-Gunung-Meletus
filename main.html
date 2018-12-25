@@ -31,7 +31,7 @@
 <body>
 
     <style>
-    button:focus {outline:0;}
+        button:focus {outline:0;}
     
     ::-webkit-scrollbar {
         width: 10px;
@@ -647,6 +647,25 @@
         });
     </script>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                headers: {
+                    'Content-Type': 'Access-Control-Allow-Origin'
+                },
+                type: "GET",
+                url: "https://cors-anywhere.herokuapp.com/http://data.bmkg.go.id/lastgempadirasakan.xml",
+                dataType: "xml",
+                success: xmlParser
+            });
+
+            function xmlParser(xml) {
+                $(xml).find("Gempa").each(function () {
+                    $("#gempaterkini").append('<div>' + $(this).find("Tanggal").text() + '</div>')
+                })
+            }
+        });
+    </script>
     <!-- <script src="assets/js/scrollify/node_modules/jquery-scrollify/jquery.scrollify.js"></script> -->
     <script src="assets/js/bootstrap/bootstrap.min.js"></script>
     <script src="assets/js/index.js"></script>
