@@ -12,7 +12,7 @@
 }
 
 #myFooter .row {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 #myFooter .navbar-brand {
@@ -88,7 +88,7 @@
     background-color: #d84b6b;
     border-radius: 20px;
     border: none;
-    width: 150px;
+    width: 175px;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
