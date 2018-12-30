@@ -1,0 +1,125 @@
+.h1-tanda {
+	font-weight: 600;
+	font-family: gotham-thin;
+	font-size: 26px;
+    text-align: left;
+    color: white !important;
+    margin-top: 94px;
+}
+.tanda {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(36, 36, 36);
+}
+.tanda2 {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: rgb(36, 36, 36);
+}
+.caption-tanda{
+    left: 0;
+    font-family: gotham-book;
+    text-align: left;
+    color: rgb(209, 209, 209);
+    margin-bottom: 70px;
+}
+.caption-tanda p{
+    font-size: 14px;
+}
+.slicer{
+    width: 100%;
+    min-height: 210px;
+    background-color: #a84141;
+    margin-top: 100px;
+}
+
+.img-tanda{
+    margin-top: 30px;
+    max-width: 95%;
+    z-index: 99;
+    position: absolute;
+}
+
+.tandabg-light{
+  background-color: #ffffff !important;
+  width: 80%;
+  color: black;
+}
+.tandabg-dark{
+    background-color: #141414;
+    width: 80%;
+    color: white;
+  }
+.indicationimg{
+    left: 0;
+}
+.content-tanda{
+   padding: 3rem;
+   padding-bottom: 0px !important;
+   font-family: poppins;
+   text-align: left;
+}
+.content-tanda p{
+    margin-top: 8px;
+    font-size:14px; 
+    color: #575757;
+}
+.content-tanda2{
+    padding: 3rem;
+    padding-bottom: 0px !important;
+    font-family: poppins;
+    text-align: right;
+ }
+ .content-tanda2 p{
+    margin-top: 8px;
+    font-size:14px; 
+    color: #575757;
+}
+.content-tanda3{
+    padding: 2rem;
+    padding-bottom: 0 !important;
+    font-family: poppins;
+    text-align: left;
+ }
+ .content-tanda3 p{
+    margin-top: 8px;
+    font-size:14px; 
+    color: #575757;
+}
+.content-tanda4{
+    padding: 2rem;
+    padding-bottom: 0 !important;
+    font-family: poppins;
+    text-align: right;
+ }
+ .content-tanda4 p{
+    margin-top: 8px;
+    font-size:14px; 
+    color: #575757;
+}
+.h1-content-tanda{
+    font-weight: 600;
+	font-family: gotham-thin;
+	font-size: 22px;
+}
+.hr-red {
+	border: 2px solid rgb(146, 28, 28);
+    border-radius: 3px;
+    float: left;
+    margin-top: 5px;
+}
+.hr-red2 {
+	border: 2px solid rgb(146, 28, 28);
+    border-radius: 3px;
+    float: right;
+    margin-top: 5px;
+}
+.h1-tanda-title{
+    font-weight: 600;
+	font-family: gotham-thin;
+	font-size: 32px;
+    text-align: center;
+    color: white !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

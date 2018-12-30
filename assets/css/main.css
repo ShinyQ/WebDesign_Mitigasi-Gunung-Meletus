@@ -127,12 +127,14 @@ a:hover {
     color: white;
     margin-top: 20px !important;
     font-size: 60px;
-    position :relative;
-   animation: mymove 2s infinite;    
+    position: relative;
+    animation: mymove 2s infinite;
 }
-.scrollicon:hover{
+
+.scrollicon:hover {
     color: white !important
 }
+
 @keyframes mymove {
     0% {
         top: 0px;
@@ -150,12 +152,14 @@ a:hover {
         top: 0px;
     }
 }
+
 .wrapper {
     min-height: 400px;
     width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 .wrappermain {
     min-height: 400px;
     width: 100%;
@@ -163,14 +167,96 @@ a:hover {
     padding-top: 2%;
     padding-bottom: 3%;
 }
+
 .wrappersejarah {
     min-height: 400px;
     width: 100%;
     padding-bottom: 3%;
 }
-.mymove{
-    animation: mymove 2s infinite; 
+
+.mymove {
+    animation: mymove 2s infinite;
     position: relative;
     width: 600px;
     margin-top: -10px !important;
+}
+/* bg image for content tanda tanda  */
+.tandabg1{
+    background-image: url(../images/background/mountain.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+.tandabg2{
+    background-image: url(../images/background/mountain.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+.tandabg3{
+    background-image: url(../images/background/mountain.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+.tandabg4{
+    background-image: url(../images/background/mountain.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+@media (max-width: 992px) {
+    .caption-tanda p {
+        font-size: 12px;
+    }
+    .h1-tanda {
+        font-size: 24px;
+        margin-top: 20px !important;
+    }
+    .slicer{
+       display: none;
+    }
+    .img-tanda{
+        position: relative !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .caption-tanda p {
+        font-size: 12px;
+    }
+    .h1-tanda {
+        font-size: 20px;
+        margin-top: 20px !important;
+    }
+    .slicer{
+        display: none;
+    }
+    .img-tanda{
+        position: relative !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .nav-bar {
+        padding-top: 52px;
+        padding-left: 29px;
+        width: 100%;
+        position: fixed;
+        background: white;
+        height: 100vh;
+    }
+    .caption-tanda p {
+        font-size: 10px;
+    }
+    .h1-tanda {
+        font-size: 18px;
+        margin-top: 20px !important;
+    }
+    .slicer{
+      display: none;
+    }
+    .img-tanda{
+        position: relative !important;
+    }
 }

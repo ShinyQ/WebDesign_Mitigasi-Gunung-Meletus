@@ -15,7 +15,21 @@
     src: url('../../fonts/gotham-rounded/GothamRounded-Medium.otf');
     font-display: block;
 }
-
+@font-face {
+    font-family: 'gotham-thin';
+    src: url('../../fonts/gotham-rounded/GothamRounded-Light.otf');
+    font-display: block;
+}
+@font-face {
+    font-family: 'gotham-book';
+    src: url('../../fonts/gotham-rounded/GothamRounded-Book.otf');
+    font-display: block;
+}
+@font-face {
+    font-family: 'neo';
+    src: url('../../fonts/NeoSansBlack.otf');
+    font-display: block;
+}
 @font-face {
     font-family: 'poppins';
     src: url('../../fonts/poppins/Poppins-Medium.ttf');
