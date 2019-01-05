@@ -98,5 +98,8 @@
 @media screen and (min-width:320px) and (max-width:414px) {
     .teknologi h1 {
         font-size: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
+
 }

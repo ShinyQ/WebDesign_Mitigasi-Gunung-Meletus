@@ -1,11 +1,12 @@
-.bg-dampak{
+.bg-dampak {
     color: white;
-    padding-left:5%;
-    padding-right:5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.dampakcontent p{
-margin-top: 20px;
-text-align: justify;
-line-height: 2;
+.dampakcontent p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 2;
+    font-size:  16px;
 }

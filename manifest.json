@@ -1,0 +1,16 @@
+{
+    "name": "Mitigasi Gunung Meletus",
+    "short_name": "Migus",
+    "description": "Aplikasi PWA Yang Menampilkan Penanggulangan Gunung Meletus",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#3c3d41",
+    "theme_color": "#3c3d41",
+    "icons": [
+        {
+            "src": "assets/images/logo/ICON.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
