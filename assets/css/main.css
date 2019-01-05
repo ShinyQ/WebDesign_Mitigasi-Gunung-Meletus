@@ -230,7 +230,6 @@ a:hover {
 }
 
 @media (max-width: 992px) {
-   
     .h1-tanda {
         font-size: 24px;
         margin-top: 20px !important;
@@ -262,6 +261,19 @@ a:hover {
     .parallax-caption{
         margin-top: 30% !important;
     }
+    .navbar{
+        background-color: rgb(36, 36, 36);
+      }
+      .navbrand2 {
+       display: none!important;
+      }
+      .navbrand1{
+        display: none;
+      }
+      .navbrand3{
+        display: block;
+        opacity: 1 !important;
+      }
 }
 
 @media (max-width: 768px) {
@@ -296,6 +308,19 @@ a:hover {
     .parallax-caption{
         margin-top: 40% !important;
     }
+    .navbar{
+        background-color: rgb(36, 36, 36);
+      }
+      .navbrand2 {
+       display: none!important;
+      }
+      .navbrand1{
+        display: none;
+      }
+      .navbrand3{
+        display: block;
+        opacity: 1 !important;
+      }
 }
 
 @media (max-width: 600px) {
@@ -372,4 +397,17 @@ a:hover {
         margin-left: 15px;
         margin-right: 15px
     }
+    .navbar{
+        background-color: rgb(36, 36, 36);
+      }
+      .navbrand2 {
+       display: none!important;
+      }
+      .navbrand1{
+        display: none;
+      }
+      .navbrand3{
+        display: block;
+        opacity: 1 !important;
+      }
 }

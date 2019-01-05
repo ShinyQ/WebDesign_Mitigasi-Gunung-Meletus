@@ -3,19 +3,12 @@
     text-align: center!important;
     font-size: 18px!important;
   }
-
+  
   .nav-bar p{
     text-align: center!important;
     font-size: 18px!important;
   }
-
-  .navbar{
-    background-color: #3c3d41!important;
-  }
-  .navbrand2 {
-   display: none!important;
-  }
-
+  
   .navbar {
     padding-right: 20px!important;
     padding-left: 20px!important;
@@ -41,10 +34,22 @@
 .nav-bar {
   z-index: 999;
 }
-
+.navbar{
+  opacity: 0;
+  transition: 0.5s all;
+}
 .navbrand1 {
   float: left;
-  margin: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.navbrand3 {
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  opacity: 0;
 }
 .navbrand2 {
   text-align: center;
@@ -120,20 +125,10 @@ transition: right 0.3s;
   transition-duration: .15s;
   transition-property: transform;
   border-radius: 4px;
-  background: rgb(255, 255, 255);
+  background: white;
+  /* background: #8a1d1d !important; */
 }
 
-.hamburger.is-active .hamburger-inner,
-.hamburger.is-active .hamburger-inner:after,
-.hamburger.is-active .hamburger-inner:before {
-  background-color: rgb(79, 79, 79) !important;
-}
-
-.hamburger.is-active .hamburger-inner,
-.hamburger.is-active .hamburger-inner:after,
-.hamburger.is-active .hamburger-inner:before {
-  background-color: rgb(79, 79, 79) !important;
-}
 
 .hamburger--spring.is-active .hamburger-inner {
   transition-delay: .22s;
