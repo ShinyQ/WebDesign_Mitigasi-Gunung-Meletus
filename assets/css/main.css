@@ -84,10 +84,66 @@ a:hover {
     animation-duration: 40s;
     animation-iteration-count: infinite;
 }
+.quote {
+	background: #41ade5;
+	position: relative;
+	z-index: 1;
+	
+	&:before,
+	&:after {
+	  background: inherit;
+	  content: '';
+	  display: block;
+	  height: 50%;
+	  left: 0;
+	  position: absolute;
+	  right: 0;
+	  z-index: -1;
+	  -webkit-backface-visibility: hidden; // for Chrome Windows
+	}
+  
+	&:before {
+	  top: 0;
+	  transform: skewY(1.5deg);
+	  transform-origin: 100% 0;
+	}
+	
+	&:after {
+	  bottom: 0;
+	  transform: skewY(-1.5deg);
+	  transform-origin: 100%;
+	}
+  }
+  
+  // demo code below
+  .quote {
+	color: #fff !important;
+	font-family: porter;
+	margin: 50px 0;
+	padding: 20% 20px;
+	text-align: center;
+  }
+  
+  h1 {
+	font-size: 32px;
+	font-weight: 500;
+  }
+  
+  p {
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: 0.5em;
+  }
 
 .box-shadow {
     box-shadow: 0 5px 20px rgba(125, 125, 125, 0.2);
 }
+.gradient{
+    background: linear-gradient(45deg, #771a1a, #cf1919);
+}
+
+
+/* Animations */
 
 @keyframes animasiBg {
     0% {
@@ -101,6 +157,8 @@ a:hover {
     }
 }
 
+
+/* /animation */
 .parallax {
     background-attachment: fixed;
     background-position: center;

@@ -16,10 +16,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 $(window).scroll(function () {
-            if ($(window).scrollTop() >= $(".wrappermain").offset().top - 120) {
-                $(".navbar").css({
-                    "color": "white",
-                    "opacity":"1",
-                });
-            }
+    if ($(window).scrollTop() >= $(".wrappermain").offset().top - 120) {
+        $(".navbar").css({
+            "color": "white",
+            "opacity": "1",
         });
+    }
+}); 
